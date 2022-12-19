@@ -15,7 +15,7 @@ sidebar-category:
   - title: "카테고리"
     children:
       - title: "잡담"
-        url: "/blog"
+        url: "categories/blog"
       - title: "Study-GITHUBlog"
         url: "/GITHUBlog"
       - title: "Study-소방설비"
