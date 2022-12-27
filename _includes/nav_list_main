@@ -18,23 +18,23 @@
                 <!-- [Cat.Name]의 카테고리 글들을 모아둔 페이지인 /[Cat.Name] 주소의 글로 링크 연결-->
                 <!-- category[1].size 로 해당 카테고리를 가진 글의 개수 표시 --> 
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/Blog" class=""> Blog ({{category[1].size}})</a></li>
+                    {% if category[0] == "blog" %}
+                        <li><a href="/blog" class=""> Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Hobby" %}
-                        <li><a href="/Hobby" class=""> 취미 ({{category[1].size}})</a></li>
+                    {% if category[0] == "hobby" %}
+                        <li><a href="/hobby" class=""> 취미 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Study</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "GITHUBlog" %}
-                        <li><a href="/GITHUBlog" class=""> GITHUBlog ({{category[1].size}})</a></li>
+                    {% if category[0] == "githublog" %}
+                        <li><a href="/githublog" class=""> GITHUBlog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
