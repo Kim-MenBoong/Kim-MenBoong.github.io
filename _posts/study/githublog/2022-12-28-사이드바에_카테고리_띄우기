@@ -1,0 +1,31 @@
+---
+Layout: post
+title: "사이드바에 카테고리 만들기"
+excerpt: "카테고리별 페이지를 만들고, 사이드바에 연결하였다.."
+categories: githublog
+date: 2022-12-28
+---
+
+[ansohxxn.github.io ; mmistakes 블로그 카테고리 만들기](https://ansohxxn.github.io/blog/category/)  
+위 글을 참고해서 카테고리별 페이지를 만들고 사이드바에 링크했다.  
+
+
+## Step 1. 포스트에 카테고리 등록
+
+포스트 작성시 front matter에 categories: 카테고리명 형식으로 카테고리를 등록해 두자.  
+
+## Step 2. 카테고리별 페이지 생성  
+
+_pages 폴더에 카테고리별로 페이지 생성  
+
+## Step 3. 사이드바에 각 페이지 연결
+
+nav_list_main 작성하고  
+sidebar.html 수정  
+
+## Step 4. 사이드바 활성화
+
+config.yml 수정  
+  sidebar_main: true 추가함..
+필요하다면 index.html 수정  
+  _config.yml에서 breadcrumps -> true, comment provider -> facebook, search -> true  
