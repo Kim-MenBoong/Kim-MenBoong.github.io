@@ -6,8 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
+## Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
@@ -290,6 +289,5 @@ defaults:
       comments: # true
       share: true
       related: true
-      sidebar:          #사이드바 추가
-        #nav: "nav_list_main"   #사이드바에 내비 
-        #nav: "sidebar-category" 
+      sidebar_main: true          #사이드바 추가
+      
