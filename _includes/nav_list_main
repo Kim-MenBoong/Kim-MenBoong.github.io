@@ -11,19 +11,21 @@
             <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        
+        <!--span 태그로 카테고리 분류 ex) C/C++/C#-->
+        <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->    
+        <!-- [Cat.Name]의 카테고리 글들을 모아둔 페이지인 /[Cat.Name] 주소의 글로 링크 연결-->
+        <!-- category[1].size 로 해당 카테고리를 가진 글의 개수 표시 --> 
+        
         <span class="nav__sub-title">일상</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!-- [Cat.Name]의 카테고리 글들을 모아둔 페이지인 /[Cat.Name] 주소의 글로 링크 연결-->
-                <!-- category[1].size 로 해당 카테고리를 가진 글의 개수 표시 --> 
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
                         <li><a href="/blog" class=""> Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-			</ul>
-			<ul>
+			      </ul>
+			      <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "investlog" %}
                         <li><a href="/investlog" class=""> 투자기록 ({{category[1].size}})</a></li>
