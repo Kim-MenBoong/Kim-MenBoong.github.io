@@ -8,7 +8,6 @@
       <!--전체 글 수-->
       <li>
             <span>전체 글 수 {{sum}} 개</span> 
-            <!-- 수정전 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style>  -->
       </li>
       <li>
         
@@ -27,7 +26,7 @@
 			      </ul>
 			      <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "investlog" %}
+                    {% if category[0] == "InvestLog" %}
                         <li><a href="/investlog" class=""> 투자기록 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
