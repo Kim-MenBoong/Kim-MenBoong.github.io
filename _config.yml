@@ -290,11 +290,12 @@ defaults:
       share: false                 # true -> false
       related: true
       sidebar_main: true          # 사이드바 추가
-#  - scpoe:                        # 카테고리 Front matter 기본값
-#      path: /_pages
+  - scpoe:                        # 카테고리 Front matter 기본값
+      path: /_pages
 #      type: pages
-#    values:
+    values:
 #      layout: archive
-#      sidebar_main: true          # 사이드바 추가
+      author_profile: true       # true -> false
+      sidebar_main: true          # 사이드바 추가
 
       
