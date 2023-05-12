@@ -1,6 +1,6 @@
 ---
 title: "투자기록"
-layout: post
+layout: archive
 permalink: /investlog
 ---
 
