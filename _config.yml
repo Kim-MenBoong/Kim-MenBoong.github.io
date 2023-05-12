@@ -284,10 +284,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false       # true -> false
+      author_profile: true       # true -> false
       read_time: true
       comments: # true
-      share: true                 # true -> false
+      share: false                 # true -> false
       related: true
       sidebar_main: true          # 사이드바 추가
 #  - scpoe:                        # 카테고리 Front matter 기본값
