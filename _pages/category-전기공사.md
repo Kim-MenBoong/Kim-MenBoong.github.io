@@ -2,7 +2,6 @@
 title: "전기공사"
 layout: archive
 permalink: /전기공사
-author_profile: true
 ---
 
 
