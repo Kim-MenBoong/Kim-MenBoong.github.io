@@ -292,8 +292,9 @@ defaults:
       sidebar_main: true          # 사이드바 추가
   - scpoe:                        # 카테고리 Front matter 기본값
       path: /_pages
-      type: ""
+      type: pages
     values:
+      layout: archive
       sidebar_main: true          # 사이드바 추가
 
       
