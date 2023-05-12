@@ -25,8 +25,8 @@
 			</ul>
 			<ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Investlog" %}
-                        <li><a href="/Invest" class=""> 투자기록 ({{category[1].size}})</a></li>
+                    {% if category[0] == "investlog" %}
+                        <li><a href="/investlog" class=""> 투자기록 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
