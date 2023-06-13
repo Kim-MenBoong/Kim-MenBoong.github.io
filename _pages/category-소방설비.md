@@ -21,9 +21,9 @@ gantt
 
   Section 소방설비기사(기계)
   필기 준비       :crit,             FM_Cbt_Study, 2023-06-01, 90d
-  필기(4회 09/10)  :milestone, crit,  FM_Cbt_Test, 2023-09-10, 1d
-  실기 준비       :                  FM_Write_Study, 2023-05-30, 52d
-  실기(4회 11/04)  :milestone, crit,       FM_Write_Test, 2023-11-04, 1d
+  필기(4회 09/10)  :milestone, crit,  FM_Cbt_Test, 2023-09-02, 1d
+  실기 준비       :                  FM_Write_Study, 2023-09-05, 55d
+  실기(4회 11/04)  :milestone, crit,       FM_Write_Test, 2023-11-05, 1d
   
 </div>
 
