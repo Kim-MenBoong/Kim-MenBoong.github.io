@@ -3,20 +3,33 @@
 
     <!-- {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %} -->
   {% if page.sidebar %}
+    <!-- sidebar_line 5 -->
     {% for s in page.sidebar %}
+    <!-- sidebar_line 6 -->
       {% if s.image %}
+    <!-- sidebar_line 7 -->
         <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+    <!-- sidebar_line 9 -->
       {% endif %}
+    <!-- sidebar_line 10 -->
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+    <!-- sidebar_line 11 -->
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    <!-- sidebar_line 12 -->
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    <!-- sidebar_line 13 -->
     {% endfor %}
+    <!-- sidebar_line 14 -->
     
     {% if page.sidebar.nav %}
+    <!-- sidebar_line 16 -->
       {% include nav_list nav=page.sidebar.nav %}
+    <!-- sidebar_line 17 -->
     {% endif %}
+    <!-- sidebar_line 18 -->
   {% endif %}
+    <!-- sidebar_line 19 -->
     
   <!-- 사이드바에 nav_list_main 추가 -->
     
