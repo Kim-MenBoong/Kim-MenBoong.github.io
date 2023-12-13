@@ -36,7 +36,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "소방설비" %}
-                        <li><a href="/소방설비" class=""> 소방설비 ({{category[1].size}})</a></li>
+                        <li><a href="자격증/소방설비" class=""> 소방설비기사 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -50,7 +50,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "전기공사" %}
-                        <li><a href="/전기공사" class=""> 전기공사기사 ({{category[1].size}})</a></li>
+                        <li><a href="자격증/전기공사" class=""> 전기공사기사 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

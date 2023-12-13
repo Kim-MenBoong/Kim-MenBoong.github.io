@@ -1,7 +1,7 @@
 ---
 title: "소방설비"
 layout: archive
-permalink: study/소방설비
+permalink: 자격증/소방설비
 ---
 
 ## 포스트

@@ -1,7 +1,7 @@
 ---
 title: "전기공사"
 layout: archive
-permalink: /전기공사
+permalink: 자격증/전기공사
 ---
 
 
