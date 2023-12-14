@@ -1,6 +1,6 @@
 ---
 title: "잡담"
-layout: archive
+layout: category
 permalink: /blog
 ---
 
