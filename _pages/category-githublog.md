@@ -1,6 +1,6 @@
 ---
 title: "깃허브-블로그"
-layout: categories
+layout: archive
 permalink: /githublog
 author_profile: false
 ---
