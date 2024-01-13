@@ -239,7 +239,7 @@ This tag shows **bold text**.
 
 ### Subscript Tag
 
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+Getting our science styling on with H₂O, which should push the "2" down.
 
 ### Superscript Tag
 
