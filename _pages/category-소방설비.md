@@ -1,6 +1,6 @@
 ---
 title: "소방설비"
-layout: category
+layout: archive
 permalink: /자격증/소방설비
 ---
 
