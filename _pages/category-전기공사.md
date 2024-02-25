@@ -1,6 +1,6 @@
 ---
 title: "전기공사기사"
-layout: archive
+layout: category2
 permalink: /자격증/전기공사
 sidebar_main: true
 
