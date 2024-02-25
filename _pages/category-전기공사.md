@@ -2,6 +2,8 @@
 title: "전기공사"
 layout: categories
 permalink: /자격증/전기공사
+sidebar_main: true
+
 ---
 
 * D 출판사의 2023년 교재를 바탕으로 이론 학습하였음  
