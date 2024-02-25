@@ -1,6 +1,6 @@
 ---
 title: "에너지관리기사"
-layout: default
+layout: archive
 permalink: /자격증/에관기
 sidebar_main: true
 
