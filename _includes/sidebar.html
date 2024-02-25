@@ -10,7 +10,7 @@
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}<!--테스트-->nav_list{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
 
     {% if page.sidebar.nav %}
@@ -18,6 +18,13 @@
     {% endif %}
   {% endif %}
   -->
+
+  <!-- 사이드바 추가 테스트-->
+  {% if page.sidebar.nav %}
+    {% include nav_list_main %}
+  {% endif %}
+
+
 
   <!-- _includes/sidebar.html에 nav_list_main 추가 -->
   {% if page.sidebar_main %}
