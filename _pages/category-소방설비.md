@@ -2,6 +2,8 @@
 title: "소방설비"
 layout: home
 permalink: /자격증/소방설비
+sidebar_main: true
+
 ---
 
 ## 포스트
