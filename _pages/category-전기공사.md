@@ -1,5 +1,5 @@
 ---
-title: "전기공사"
+title: "전기공사기사"
 layout: archive
 permalink: /자격증/전기공사
 sidebar_main: true
