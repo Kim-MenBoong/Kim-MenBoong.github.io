@@ -9,7 +9,7 @@
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}<!--테스트-->nav_list{% endif %}
     {% endfor %}
 
     {% if page.sidebar.nav %}
