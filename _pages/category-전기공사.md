@@ -1,6 +1,6 @@
 ---
 title: "전기공사"
-layout: archive
+layout: categories
 permalink: /자격증/전기공사
 ---
 
