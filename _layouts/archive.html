@@ -15,11 +15,13 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  <!--
   {% if page.sidebar_main %}
     {% include nav_list_main %}
   {% endif %}
+  -->
 
-  <!--{% include sidebar.html %}-->
+  {% include sidebar.html %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
