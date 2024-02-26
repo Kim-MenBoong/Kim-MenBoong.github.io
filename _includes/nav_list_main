@@ -24,7 +24,6 @@
                     {% endif %}
                 {% endfor %}
 			      </ul>
-			      <ul></ul>
 			      <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "InvestLog" %}
@@ -32,7 +31,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul></ul>
         <span class="nav__sub-title">자격증</span>
             <ul>
                 {% for category in site.categories %}
@@ -41,7 +39,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul></ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "에관기" %}
@@ -49,7 +46,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul></ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "전기공사" %}
@@ -66,7 +62,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul></ul>
       </li>
   </ul>
 </nav>
