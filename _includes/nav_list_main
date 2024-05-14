@@ -1,4 +1,4 @@
-<!--전체 글 수. sum 변수에 전체 글 수 저장-->
+<!--_includes/nav_list_main-->
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
