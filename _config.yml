@@ -281,6 +281,7 @@ defaults:
 
   - scope:                        # 모든 페이지의 front matter 기본값
       path: ""
+    values:
       sidebar_main: true          # 사이드바 추가
   
   - scope:                        # 포스트 Front matter 기본값
