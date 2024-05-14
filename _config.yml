@@ -276,9 +276,10 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults (Front matter 기본값)
 defaults:
-  - scope:                        # 포스트 Front matter 기본값
+  # posts
+  - scope:                        
       path: ""
       type: posts
     values:
@@ -288,12 +289,14 @@ defaults:
       comments: false              # true -> false
       share: false                 # true -> false
       related: true
-      mathjax : true              # 수식입력 추가
+      mathjax: true               # 수식입력 추가
       sidebar_main: true          # 사이드바 추가
-  - scope:                        # 카테고리 Front matter 기본값
+  
+  # category pages
+  - scope:                        
       path: /_pages
     values:
       layout: archive
       author_profile: true       # true -> false
-      sidebar_main: true          # 사이드바 추가
+      sidebar_main: true         # 사이드바 추가
       
