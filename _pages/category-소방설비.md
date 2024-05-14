@@ -2,8 +2,6 @@
 title: "소방설비"
 layout: archive
 permalink: /자격증/소방설비
-sidebar_main: true
-
 ---
 
 {% assign posts = site.categories['소방설비'] %}
