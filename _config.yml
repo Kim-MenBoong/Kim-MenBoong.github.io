@@ -296,7 +296,7 @@ defaults:
   - scope:                        
       path: /_pages
     values:
-      layout: archive
+      layout: "archive"
       author_profile: true       # true -> false
       sidebar_main: true         # 사이드바 추가
       
