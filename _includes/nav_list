@@ -6,7 +6,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
 
-  include 폴더의 nav_list.html 파일 (사용 안할 것)
+  <!--include 폴더의 nav_list.html 파일 (사용 안할 것) -->
 
     {% for nav in navigation %}
       <li>
