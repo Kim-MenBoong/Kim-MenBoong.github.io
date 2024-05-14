@@ -18,9 +18,12 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    test text 1 before skip-links 
     {% include_cached skip-links.html %}
+    test text 2 before masthead 
     {% include_cached masthead.html %}
-
+    test text 3 after masthead   {% include sidebar.html %} 
+    
     <div class="initial-content">
       {{ content }}
     </div>
