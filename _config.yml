@@ -278,7 +278,11 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+
+  - scope:                        # 모든 페이지의 front matter 기본값
+      path: ""
+      sidebar_main: true          # 사이드바 추가
+  
   - scope:                        # 포스트 Front matter 기본값
       path: ""
       type: posts
@@ -289,13 +293,11 @@ defaults:
       comments: # true
       share: false                 # true -> false
       related: true
-      sidebar_main: true          # 사이드바 추가
+
   - scope:                        # 카테고리 Front matter 기본값
       path: /_pages
-#      type: pages
     values:
-#      layout: archive
+      layout: archive
       author_profile: true       # true -> false
-      sidebar_main: true          # 사이드바 추가
 
       
