@@ -1,3 +1,5 @@
+<!-- _include/nav_list (nav_list_main으로 대체) -->
+
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
@@ -6,7 +8,6 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
 
-  <!--include 폴더의 nav_list.html 파일 (사용 안할 것) -->
 
     {% for nav in navigation %}
       <li>
