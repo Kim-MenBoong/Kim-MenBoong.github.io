@@ -294,7 +294,7 @@ defaults:
   
   # category pages
   - scope:                        
-      path: /_pages
+      path: "_pages"
     values:
       layout: archive
       author_profile: true       # true -> false
