@@ -289,7 +289,8 @@ defaults:
       comments: false              # true -> false
       share: false                 # true -> false
       related: true
-      mathjax: true               # 수식입력 추가
+      mathjax: true               # 수식입력???
+      use_math : true             # 수식입력 추가
       sidebar_main: true          # 사이드바 추가
   
   # category pages
